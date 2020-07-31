@@ -1,13 +1,4 @@
-#wrapper{
-    width: 1857px;
-    margin: auto;
-}
-.clearfix::after{
-    content: "";
-    clear: both;
-    display: table;
-}
-
+/*Global*/
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -15,7 +6,6 @@ body{
 html{
     border-top: 32px solid #090909;;
 }
-
 h2{
     font-size: 27px;
     color: #090909;
@@ -27,8 +17,69 @@ h2{
     background-position: 0px 7px;
 }
 
+
+
+/*Helpers*/
+#wrapper{
+    width: 960px;
+    margin: auto;
+    border:  1px solid black ;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.border{
+    border-bottom: 1px solid #c0c0c0;
+    padding: 20px 0 15px;
+}
+
 /*Header*/
 #logo{
     float: left;
-    width: 355px;
+    width: 183px;
+}
+
+#email-link{
+    font-size: 13px;
+    color: #999898;
+    text-decoration: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#menu{
+    float: right;
+    width: 656px;
+    position: relative;
+
+}
+
+#menu-list{
+    list-style: none;
+    margin: 45px 0 0 0;
+    padding: 0;
+}
+
+#menu-list li{
+    float: left;
+}
+
+ #menu-list li + li{
+     margin-left: 57px;
+ }
+
+ #menu-list a{
+     font-size: 13px;
+     font-weight: bold;
+     color: #fe9b00;
+     text-decoration: none;
+     text-transform: uppercase;
+
+ }
+ #slider{
+    padding: 18px 0 18px ;
+    width: 960px;
 }
