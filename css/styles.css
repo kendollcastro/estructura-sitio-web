@@ -24,6 +24,11 @@ h2,h3{
     background-image: url(../img/arrow.png);
     background-repeat: no-repeat;
 }
+p{
+    color: #5d5d5d;
+    font-size: 12px;
+    line-height: 15px;
+}
 
 /*Helpers*/
 #wrapper{
@@ -40,7 +45,13 @@ h2,h3{
     border-bottom: 1px solid #c0c0c0;
     padding: 20px 0 15px;
 }
-
+.block-border{
+    padding: 20px 0 15px;
+    border-bottom: 1px solid #c0c0c0;
+}
+.border-bottom{
+    border-bottom: 6px solid #090909
+}
 /*Header*/
 #logo{
     float: left;
