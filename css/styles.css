@@ -52,6 +52,23 @@ p{
 .border-bottom{
     border-bottom: 6px solid #090909
 }
+.link-arrow{
+    color: #fe9b00;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 23px;
+    text-decoration: none;
+    position: relative;
+}
+.link-arrow:hover{
+    text-decoration: underline;
+}
+.link-arrow-img{
+    width: 9px;
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
 /*Header*/
 #logo{
     float: left;
