@@ -34,7 +34,6 @@ p{
 #wrapper{
     width: 960px;
     margin: auto;
-    border:  1px solid black ;
 }
 .clearfix::after{
     content: "";
@@ -145,5 +144,37 @@ p{
     font-style: italic;
     font-size: 12px;
     text-decoration: none;
+}
 
+/*Portfolio*/
+
+.box-img{
+    width: 214px;
+    float: left;
+    background-color: red;
+}
+
+.box-img a, .box-img img{
+	display: block;
+}
+
+.box-img + .box-img{
+	margin-left: 34px;
+}
+
+/*Social Media*/
+#blog-updates{
+    width: 660px;
+    float: left;
+    margin-right: 80px;
+}
+
+#connect-with-us{
+    width: 220px;
+    float: right;
+}
+
+#connect-with-us{
+    width: 220px;
+    float: right;
 }
