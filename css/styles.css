@@ -159,12 +159,19 @@ p{
 .box-img + .box-img{
     margin-left: 34px;
 }
+
+
 /*Contact with us*/
 
 #blog-updates{
     width: 660px;
     float: left;
+    margin-right: 80px;
+}
 
+#connect-with-us{
+    width: 219px;
+    float: right;
 }
 
 
