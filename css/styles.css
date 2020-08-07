@@ -128,3 +128,18 @@ p{
     background-repeat: no-repeat;
     background-position: top left;
 }
+.box{
+    width: 280px;
+    float: left;
+}
+
+.box + .box{
+    margin-left: 60px;
+}
+
+.box-link-rafi{
+    color: #090909;
+    font-style: italic;
+    font-size: 12px;
+    text-decoration: none;
+}
