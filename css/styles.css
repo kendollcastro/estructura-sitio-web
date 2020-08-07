@@ -155,3 +155,17 @@ p{
 .box-img a, .box-img img{
     display: block;
 }
+
+.box-img + .box-img{
+    margin-left: 34px;
+}
+/*Contact with us*/
+
+#blog-updates{
+    width: 660px;
+    float: left;
+
+}
+
+
+/*footer*/
