@@ -143,3 +143,15 @@ p{
     font-size: 12px;
     text-decoration: none;
 }
+
+/*Porfolio*/
+
+.box-img{
+    width: 214px;
+    float: left;
+    background-color: red;
+}
+
+.box-img a, .box-img img{
+    display: block;
+}
