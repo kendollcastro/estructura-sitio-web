@@ -73,3 +73,44 @@ p{
     left: 0;
     top: 4px;
 }
+/*header*/
+
+#logo{
+    float: left;
+    width: 184px;
+}
+
+#navigation{
+    float: right;
+    width: 656px;
+    position: relative;
+}
+
+#navigation-link{
+    font-size: 14px;
+    color: #999898;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#navigation-list{
+    list-style: none;
+    margin: 45px 0 0 0;
+    padding: 0;
+}
+#navigation-list li{
+    float: left;
+}
+
+#navigation-list li + li{
+    margin-left: 58px;
+}
+#navigation-list a{
+    font-size: 13px;
+    font-weight: bold;
+    color: #fe9b00;
+    text-decoration: none;
+    text-transform: uppercase;
+}
